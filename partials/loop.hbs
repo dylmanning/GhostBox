@@ -1,0 +1,8 @@
+<div class="bl-content">
+  {{#foreach posts}}
+  <article class="{{post_class}}">
+    <h3>{{{title}}}</h3>
+    <p>{{excerpt words="30"}}<a href="{{url}}">Read more</a></p>
+  </article>
+  {{/foreach}}
+</div>
