@@ -8,30 +8,25 @@
 
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="ghostbox, ghost, theme" />
+    <meta name="author" content="Dylan Manning" />
 
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
 
-    <link rel="stylesheet" type="text/css" href="{{asset "css/component.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700" />
     <script src="{{asset "js/modernizr.custom.js"}}"></script>
     {{ghost_head}}
   </head>
 
   <body>
-
     <!-- wrapper -->
     <div class="container">
       {{{body}}}
     </div>
     {{ghost_foot}}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="{{asset "js/boxlayout.js"}}"></script>
-    <script>
-      $(function() {
-        Boxlayout.init();
-      });
-    </script>
+    <script src="{{asset "js/scripts.js"}}"></script>
   </body>
 </html>
