@@ -1,5 +1,7 @@
 # GhostBox
 
-[![Join the chat at https://gitter.im/dylush/GhostBox](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dylush/GhostBox?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-Theme ported from the codrops article for the Ghost CMS
+[![Latest Github release](https://img.shields.io/github/release/dylush/GhostBox.svg?style=flat-square)](http://github.com/dylush/GhostBox/releases/latest)
+[![Pending Issues](http://img.shields.io/github/issues/dylush/GhostBox.svg?style=flat-square)](http://github.com/dylush/GhostBox/issues)
+[![Gitter Support Chat](https://img.shields.io/badge/Gitter-Support_chat-green.svg?style=flat-square)](//gitter.im/dylush/GhostBox)
 
+Theme ported from this [codrops](http://tympanus.net/codrops/2013/04/23/fullscreen-layout-with-page-transitions) article for the [Ghost](https://ghost.org/) blogging platform
