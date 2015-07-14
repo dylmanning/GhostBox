@@ -5,3 +5,5 @@
 [![Gitter Support Chat](https://img.shields.io/badge/Gitter-Support_chat-green.svg?style=flat-square)](//gitter.im/dylush/GhostBox)
 
 Theme ported from this [codrops](http://tympanus.net/codrops/2013/04/23/fullscreen-layout-with-page-transitions) article for the [Ghost](https://ghost.org/) blogging platform
+
+You can also check the original codrops [github repo](https://github.com/codrops/FullscreenLayoutPageTransitions)
