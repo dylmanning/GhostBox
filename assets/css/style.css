@@ -208,7 +208,7 @@ div.panel-items > div > div {
 
 .content article img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 .content article h3 {
   font-weight: 700;
@@ -388,15 +388,6 @@ div.panel-items > div.hide-current-work {
 }
 .main > section:nth-child(4).expand {
   background: #0D8278;
-}
-
-.main.expand-item > section:not(.expand),
-.main.expand-item > section.scale-down {
-  -webkit-transform: scale(0.5);
-  -moz-transform: scale(0.5);
-  -ms-transform: scale(0.5);
-  transform: scale(0.5);
-  opacity: 0;
 }
 
 .box {
