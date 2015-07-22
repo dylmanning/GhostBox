@@ -1,4 +1,4 @@
-# GhostBox
+# GhostBox [DEMO](http://dmanning.com.au/ghostbox)
 
 [![Latest Github release](https://img.shields.io/github/release/dylush/GhostBox.svg?style=flat-square)](http://github.com/dylush/GhostBox/releases/latest)
 [![Pending Issues](http://img.shields.io/github/issues/dylush/GhostBox.svg?style=flat-square)](http://github.com/dylush/GhostBox/issues)
