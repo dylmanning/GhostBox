@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
+body, html { font-size: 100%; padding: 0; margin: 0; height: 100%; }
 
 *,
 *:after,
@@ -15,6 +15,9 @@ body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+::-webkit-scrollbar{ width: 10px; }
+::-webkit-scrollbar-thumb{ background-color: rgba(255,255,255, 1); }
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
@@ -178,8 +181,8 @@ div.panel-items > div > div {
   pointer-events: none;
   position: absolute;
   top: 60px;
-  left: 30px;
-  right: 30px;
+  left: 27px;
+  right: 27px;
   bottom: 30px;
   padding: 0 20px;
   overflow: hidden;
@@ -188,6 +191,9 @@ div.panel-items > div > div {
 }
 
 /* Custom content */
+.loop {
+  padding-right: 220px;
+}
 
 .content p {
   margin: 0 auto;
@@ -203,7 +209,7 @@ div.panel-items > div > div {
 }
 
 .content article {
-  padding: 20px 40px 20px 0px;
+  padding: 20px 20px 20px 0px;
 }
 
 .content article img {
@@ -246,7 +252,7 @@ div.panel-items > div > div {
   max-width: 100%;
 }
 
-/* Panel Items */
+/* Panel items */
 
 div.panel-items,
 div.panel-items > div {
@@ -438,6 +444,9 @@ section.expand .icon-back {
   .content,
   .box {
     font-size: 75%;
+  }
+  .loop {
+    padding-right: 0;
   }
 
   .expand .box {
