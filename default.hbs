@@ -26,6 +26,11 @@
       {{{body}}}
     </div>
     {{ghost_foot}}
+    <script type="text/javascript">  
+      if (typeof jQuery == 'undefined') {
+        document.write('<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></'+'script>');
+      }
+    </script>  
     <script src="{{asset "js/boxlayout.js"}}"></script>
     <script src="{{asset "js/scripts.js"}}"></script>
   </body>
